@@ -15,4 +15,4 @@ jobs:
       contents: read
       security-events: write
       actions: read
-    secrets: inherit
+    secrets: ${{ secrets.SEMGREP_APP_TOKEN }}
